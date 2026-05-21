@@ -16,6 +16,7 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 
 
 ## Program:
+```
 /*
 
 Program to find the solution of a matrix using Gaussian Elimination.
@@ -23,6 +24,7 @@ Developed by: Jedidiah M D
 RegisterNumber: 212225230116
 
 */
+```
 ```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
@@ -43,6 +45,8 @@ for i in range(13):
     data.append(input())
 result=solve_guassian(data)    
 print("".join([f"X{i} = {val:.2f} "for i,val in enumerate(result)]))
+```
+```
 ```
 ## Output:
 <img width="732" height="408" alt="image" src="https://github.com/user-attachments/assets/27f935f9-6389-4782-ba38-5325bc36cc4c" />
